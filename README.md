@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 3. Data preperation:
 
-- Download datasets from [BaiduDisk](https://pan.baidu.com/s/1dgQq0X4iQNAvHrXPiInGEg) [code: cim7], including annotations, features and trained models of REVERIE datasets. 
+- Download datasets from [Baidu Cloud Disk](https://pan.baidu.com/s/1dgQq0X4iQNAvHrXPiInGEg) [code: cim7], including annotations, features and trained models of REVERIE datasets. 
 - Download the object features [reverie_obj_feats_v2.pkl] from [Google Drive](https://drive.google.com/file/d/1zwV3QDPUVt7YmBNqTaCdS6v01U4b6p7M/view?usp=sharing) or [Baidu Cloud Disk](https://pan.baidu.com/s/1hxNypQZLz21RQpMD6yQNag?pwd=nubg) [code: nubg] and put it under datasets/REVERIE/features.
 - After downloading data you should see the following folder structure:
 ```
