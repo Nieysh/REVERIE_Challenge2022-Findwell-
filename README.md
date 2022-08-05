@@ -72,5 +72,5 @@ bash scripts/run_reverie.sh
 cd map_nav_src
 bash scripts/test_reverie.sh
 ```
-- After runing test_reverie.sh, you should run the `replace_reverie_to_number.py` to convert json files into the format required by the competition
+- After runing test_reverie.sh, you should run the `replace_reverie_to_number.py` to convert json files into the format required by the competition.
 
