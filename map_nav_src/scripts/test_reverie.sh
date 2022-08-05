@@ -58,15 +58,9 @@ flag="--root_dir ${DATA_ROOT}
       
       --gamma 0."
 
-# train
-CUDA_VISIBLE_DEVICES='0' python reverie/main_nav_obj.py $flag  \
-      --tokenizer bert \
-      --bert_ckpt_file ../datasets/REVERIE/exprs_map/pretrain/model_step_100000.pt \
-      --new_data \
-      --eval_first
-
 # test
 CUDA_VISIBLE_DEVICES='0' python reverie/main_nav_obj.py $flag  \
       --tokenizer bert \
       --resume_file ../datasets/REVERIE/exprs_map/finetune/best_val_unseen \
+      --new_data \
       --test --submit
