@@ -158,7 +158,7 @@ def main(opts):
     data_cfg = EasyDict(opts.train_datasets['REVERIE'])
     if opts.new_data:
         print("arg.new_data : True")
-        with open('/data1/datasets/reverie_challenge_2022/reverie_obj_feats_v2.pkl',  # 使用新的obj特征
+        with open('../datasets/REVERIE/features/reverie_obj_feats_v2.pkl',  # 使用新的obj特征
                   'rb') as f_obj:
             obj_feats = pkl.load(f_obj)
     else:
