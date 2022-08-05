@@ -65,3 +65,10 @@ Use pseudo interative demonstrator to fine-tune the model:
 cd map_nav_src
 bash scripts/run_reverie.sh
 ```
+## Reproducing Testing Results 
+
+Use trained model to reproduce the results on the test split:
+```finetune
+cd map_nav_src
+bash scripts/test_reverie.sh
+```
